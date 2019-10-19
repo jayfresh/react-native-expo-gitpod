@@ -1,4 +1,4 @@
-FROM gitpod/firefox
+FROM gitpod/workspace-firefox
 
 USER gitpod
 

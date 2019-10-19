@@ -4,5 +4,4 @@ ports:
   - port: 19000-19002
 tasks:
   - before: npm install
-    init: npm install expo-cli --global
     command: npm start

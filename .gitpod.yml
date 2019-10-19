@@ -2,3 +2,7 @@ image:
   file: .gitpod.dockerfile
 ports:
   - port: 19000-19002
+tasks:
+  - before: npm install expo-cli --global
+    init: npm install
+    command: npm start
